@@ -511,3 +511,10 @@ main {
   top: 10%;
   right: 0;
 }
+
+/* VIRTUAL EVENT SECTION */
+
+.virtual-events-section {
+  display: flex;
+  justify-content: center;
+}
