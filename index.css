@@ -132,7 +132,7 @@ p {
   margin: var(--spacing-md) 0;
 }
 
-/* LAYOUT STYLES */
+/* ==================== LAYOUT STYLES ==================== */
 .section-container {
   width: 100%;
   max-width: var(--standard-width);
@@ -255,7 +255,7 @@ p {
   transform: translateX(4px);
 }
 
-/* NAVBAR */
+/* ==================== NAVBAR ==================== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -290,7 +290,7 @@ p {
   background-color: rgba(250, 250, 250, 0.5);
 }
 
-/* HERO STYLES */
+/* ==================== HERO STYLES ==================== */
 .hero {
   width: 100%;
   display: flex;
@@ -324,7 +324,7 @@ main {
   transform: translate(32px, -32px);
 }
 
-/* PARTNERS SECTION */
+/* ==================== PARTNERS SECTION ==================== */
 .partners-section {
   width: 100%;
   display: flex;
@@ -345,7 +345,7 @@ main {
   place-self: center;
 }
 
-/* UNIFIED PLATFORM SECTION */
+/* ==================== UNIFIED PLATFORM SECTION ==================== */
 
 .unified-platform-section {
   padding: var(--spacing-xl) 0;
@@ -368,7 +368,7 @@ main {
   background-color: var(--primary-accent);
 }
 
-/* GRAPHIC SECTION */
+/* ==================== GRAPHIC SECTION ==================== */
 .graphic-section {
   width: 100%;
   display: flex;
@@ -408,7 +408,7 @@ main {
   box-shadow: var(--standard-box-shadow);
 }
 
-/* INTEGRATIONS SECTION */
+/* ==================== INTEGRATIONS SECTION ==================== */
 .integrations-section {
   color: var(--text-light);
   background-color: var(--primary-accent);
@@ -451,7 +451,7 @@ main {
   border-radius: 20px;
 }
 
-/*  WHY SWIPE SECTION */
+/* ==================== WHY SWIPE SECTION ==================== */
 .why-swipe-section {
   width: 100%;
   display: flex;
@@ -474,7 +474,7 @@ main {
   color: var(--text-dark);
 }
 
-/* GLOBAL SECTION */
+/* ==================== GLOBAL SECTION ==================== */
 .global-section {
   background-color: var(--primary-accent);
   width: 100%;
@@ -519,7 +519,7 @@ main {
   right: 0;
 }
 
-/* VIRTUAL EVENT SECTION */
+/* ==================== VIRTUAL EVENT SECTION ==================== */
 .virtual-events-section {
   display: flex;
   justify-content: center;
@@ -606,7 +606,7 @@ main {
   width: 50%;
 }
 
-/* GETTING STARTED SECTION */
+/* ==================== GETTING STARTED SECTION ==================== */
 .getting-started-section {
   display: flex;
   justify-content: center;
@@ -640,4 +640,10 @@ main {
 .getting-started-section .col-right .card .secondary-button {
   color: var(--purple-2);
   padding-left: 0;
+}
+
+/* ==================== FOOTER SECTION ====================*/
+.footer {
+  display: flex;
+  justify-content: center;
 }
