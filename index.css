@@ -800,6 +800,7 @@ footer {
     --h1-size: 64px;
     --h1-height: 72px;
     --h3-size: 34px;
+    --h6-size: 16px;
   }
 
   /* UNIFIED PLATFORM */
@@ -822,6 +823,17 @@ footer {
   }
 
   .why-swipe-section .card-container .card {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
+
+  /* GLOBAL SCALE SECTION */
+  .global-section .card-container {
+    flex-wrap: wrap;
+    margin: var(--spacing-xl) 0;
+  }
+
+  .global-section .card-container .card {
     width: 50%;
     margin: var(--spacing-md) 0;
   }
@@ -859,5 +871,15 @@ footer {
 
   .why-swipe-section .card-container .card .icon {
     height: 35px;
+  }
+
+  /* GLOBAL SECTION */
+  .global-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing-sm) 0;
+  }
+
+  #globe {
+    opacity: 10%;
   }
 }
