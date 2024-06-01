@@ -803,6 +803,15 @@ footer {
   .hero .col-right {
     width: 40%;
   }
+
+  /* PARTNERS GRID */
+  .partners-section {
+    margin: -60px 0 0 0;
+  }
+
+  .partners-grid {
+    margin: 0 0 var(--spacing-xl) 0;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -896,6 +905,11 @@ footer {
   .hero-phone {
     height: 450px;
     transform: translateX(32px);
+  }
+
+  /* PARTNERS GRID */
+  .partners-section {
+    margin: -20px 0 0 0;
   }
 
   /* UNIFIED PLATFORM */
@@ -994,6 +1008,10 @@ footer {
   }
 
   /* PARTNERS GRID SECTION */
+  .partners-section {
+    margin: var(--spacing-xl) 0 var(--spacing-sm) 0;
+  }
+
   .partners-grid {
     grid-template-columns: 1fr 1fr;
   }
